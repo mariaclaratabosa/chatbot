@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+*{
+    color:#fff;
+    font-family: "Inter", sans-serif
+}
+
+body{
+    margin: 0;
+    padding:0;
+    background-color: #343541;
+    display:flex;
+    width: 100%;
+    height: 100vh;
+}
+
+.side-bar{
+    background-color: #ffffff;
+    width:100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.new-chat{
+    border-radius: 100%;
+    width: 44px;
+    height: 44px;
+    font-size: 40px;
+    background-color: #032033;
+    border: none;
+    align-self: center;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    justify-content: center;
+}
+
+.user{
+    border-radius: 100%;
+    width: 44px;
+    height: 44px;
+    font-size: 30px;
+    background-color: #032033;
+    border: none;
+    align-self: center;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.main{
+    display:flex;
+    flex-direction: column;
+    height: 100%;
+    padding-left: 30px;
+    width:100%;
+    background-color: #032033    
+}
+
+.company-name{
+    font-size: 20px;
+}
+
+.salutation{
+    font-size: 30px;
+}
+
+.help{
+    font-size: 25px;
+}
+
+.bottom-section{
+    display: flex;
+    justify-self: end;
+    position: absolute;
+    bottom: 5px;
+    width: 70%;
+    align-self: center;
+}
+
+.input-container{
+    display: flex;
+    width: 100%;
+    padding: 12px;
+    border-radius: 25px;
+    border: 3px solid #ffffff;
+    justify-content: space-between;
+    align-items: center;
+    align-self: center;
+    box-sizing: border-box;
+
+}
+
+.ask-question{
+    border: none;
+    background-color: transparent;
+    font-size:20px;
+}
+
+.ask-question::placeholder{
+    color: #ffffff;
+}
+
+.ask-question:focus{
+    outline: none;
+}
+
+.submit > i{
+    background-color: transparent;
+}
